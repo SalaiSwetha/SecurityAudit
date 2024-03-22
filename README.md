@@ -221,52 +221,121 @@ Review the following charts for specific details about each type of control and 
 	<td>X</td>
 	<td>High</td>
 </tr>
-</table>	
-
-
-
-
-
-
-
+</table>
 
 Physical Controls:
-Control Name	Control Type and Purpose	Needs to be Implemented	Priority
-Time-controlled safe
-	Deterrent; reduce attack surface/impact of physical threats	NA
-	Medium/Low
-Adequate lighting	Deterrent: limit “hiding” places to deter threats	X
-	Medium/Low
-Closed-circuit television (CCTV) surveillance	Preventative/detective; can reduce risk of certain events; can be used after event for investigation	X
-	High/Medium
-Locking cabinets (for network gear)	Preventative: increase integrity by preventing unauthorized personnel/individuals from physically accessing/modifying network infrastructure gear	X
-	High/Medium
-Signage indicating alarm service provider	Deterrent: makes the likelihood of a successful attack seem low	X
-	Low
-Locks	Preventative: physical and digital assets are more secure	X
-	High
-Fire detection and prevention (fire alarm, sprinkler system, etc.)	Detective/Preventative; detect fire in the toy store’s physical location to prevent damage to inventory, servers, etc.	X
-	Medium
+<table>
+  <tr>
+    <th>Control Name</th>
+    <th>Control Type and Purpose</th>
+    <th>Needs to be Implemented</th>
+    <th>Priority</th>
+  </tr>
+
+<tr>
+	<td>Time-controlled safe</td>
+	<td>Deterrent; reduce attack surface/impact of physical threats</td>
+	<td>NA</td>
+	<td>Medium/Low
+	</td>
+</tr>
+<tr>
+	<td>Adequate lighting</td>
+	<td>Deterrent: limit “hiding” places to deter threats</td>	
+	<td>X</td>
+	<td>Medium/Low</td>
+</tr>
+<tr>
+<td>Closed-circuit television (CCTV) surveillance</td>
+	<td>Preventative/detective; can reduce risk of certain events; can be used after event for investigation</td>
+	<td>	X</td>
+	<td>High/Medium</td>
+</tr>
+<tr>
+	<td>Locking cabinets (for network gear)	</td>
+	<td>Preventative: increase integrity by preventing unauthorized personnel/individuals from physically accessing/modifying network infrastructure gear
+	</td>
+	<td>X</td>
+	<td>High/Medium</td>
+</tr>
+<tr>
+	<td>Signage indicating alarm service provider</td>
+	<td>Deterrent: makes the likelihood of a successful attack seem low</td>
+	<td>X</td>
+	<td>Low</td>
+</tr>
+ <tr>
+	 <td>Locks</td>
+	 <td>Preventative: physical and digital assets are more secure</td>
+	 <td>X</td>
+	 <td>High</td>
+ </tr>
+<tr>
+	
+<td>Fire detection and prevention (fire alarm, sprinkler system, etc.)	</td>
+
+<td>Detective/Preventative; detect fire in the toy store’s physical location to prevent damage to inventory, servers, etc.</td>
+
+<td>X</td>
+	
+ <td>Medium</td>
+</tr>
+</table>
 
 
+<b>Compliance Evaluation:</b>
 
+<b>Payment Card Industry Data Security Standard (PCI DSS):- </b>
 
-Compliance Evaluation:
-Payment Card Industry Data Security Standard (PCI DSS):- 
-Authorized Access Control: Not Satisfactory - Currently, all employees possess access to the company’s internal data, including customer credit card information.
-- Handling of Credit Card Data: Adequate - However, improvements are imperative, particularly in the realm of data encryption.
-- Data Encryption Procedures: Absent - Encryption is not employed to ensure the confidentiality of financial information.
-- Password Management Policies: Inadequate - Existing policies lack robustness, and a password management system is conspicuously absent.
-General Data Protection Regulation (GDPR):
-- Data Confidentiality: Unsatisfactory - Encryption measures need to be introduced to safeguard financial data.
-- Data Breach Notification: Adequate - A plan exists for notifying E.U. customers within 72 hours of a data breach.
-- Data Classification and Inventory: Incomplete - Assets have been inventoried but require systematic classification.
-- Enforcement of Privacy Policies: Adequate - Privacy policies are in place and stringently enforced among IT team members and other relevant staff.
+<b>Authorized Access Control:</b>
 
-System and Organizations Controls (SOC type 1, SOC type 2):
-- User Access Policies: Absent - Controls pertaining to least privilege and separation of duties require implementation, as unrestricted access is currently granted to all employees.
-- Handling of Sensitive Data: Inadequate - Encryption is not employed to ensure the confidentiality of sensitive data.
-- Data Integrity: Adequate - Measures for data integrity have been implemented.
-- Authorized Data Access: Incomplete - Access control should be restricted to authorized personnel for enhanced data security.
+Not Satisfactory - Currently, all employees possess access to the company’s internal data, including customer credit card information.
+
+<b> Handling of Credit Card Data:</b>
+Adequate - However, improvements are imperative, particularly in the realm of data encryption.
+
+<b>Data Encryption Procedures:</b>
+
+Absent - Encryption is not employed to ensure the confidentiality of financial information.
+
+<b>Password Management Policies:</b>
+
+Inadequate - Existing policies lack robustness, and a password management system is conspicuously absent.
+
+<b>General Data Protection Regulation (GDPR):</b>
+
+<b> Data Confidentiality: </b>
+
+Unsatisfactory - Encryption measures need to be introduced to safeguard financial data.
+
+<b> Data Breach Notification: <b>
+
+Adequate - A plan exists for notifying E.U. customers within 72 hours of a data breach.
+
+<b> Data Classification and Inventory:</b>
+
+Incomplete - Assets have been inventoried but require systematic classification.
+
+<b>Enforcement of Privacy Policies: </b>
+
+Adequate - Privacy policies are in place and stringently enforced among IT team members and other relevant staff.
+
+<b>System and Organizations Controls (SOC type 1, SOC type 2):</b>
+
+<b>User Access Policies: </b>
+
+Absent - Controls pertaining to least privilege and separation of duties require implementation, as unrestricted access is currently granted to all employees.
+
+<b>Handling of Sensitive Data:</b>
+
+Inadequate - Encryption is not employed to ensure the confidentiality of sensitive data.
+
+<b>Data Integrity: </b>
+
+Adequate - Measures for data integrity have been implemented.
+
+<b>Authorized Data Access: </b>
+
+Incomplete - Access control should be restricted to authorized personnel for enhanced data security.
 
 

@@ -1,6 +1,6 @@
-<b>Botium Toys Security Audit Conduct</b>
+<h1 style="font-size:300%;">Botium Toys Security Audit Conduct</h1>
 
-<b>Scenario</b>
+<h1 style="font-size:160%;">Scenario</h1>
 
 Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location, which serves as their main office, a storefront, and warehouse for their products. However, Botium Toy’s online presence has grown, attracting customers in the U.S. and abroad. As a result, their information technology (IT) department is under increasing pressure to support their online market worldwide. 
 The manager of the IT department has decided that an internal IT audit needs to be conducted. She expresses concerns about not having a solidified plan of action to ensure business continuity and compliance, as the business grows. She believes an internal audit can help better secure the company’s infrastructure and help them identify and mitigate potential risks, threats, or vulnerabilities to critical assets. The manager is also interested in ensuring that they comply with regulations related to internally processing and accepting online payments and conducting business in the European Union (E.U.).   
@@ -9,7 +9,7 @@ Your task is to review the IT manager’s scope, goals, and risk assessment repo
 
 
 
-<b>Scope and Goals of the audit</b>
+<h1 style="font-size:160%;">Scope and Goals of the audit</h1>
 
 <b>Scope:</b>
 
@@ -34,30 +34,30 @@ The goals for Botium Toys’ internal IT audit are:
 
 <b>Current assets:</b>
 
-1. On-premises equipment for in-office business needs
+1. On-premises equipment for in-office business needs   
 2. Employee equipment: end-user devices (desktops/laptops, smartphones), remote workstations, headsets, cables, keyboards, mice, docking stations, surveillance cameras, etc.
-3.Storefront products available for retail sale on site and online; stored in the company’s adjoining warehouse
-4. Management of systems, software, and services: accounting, telecommunication, database, security, ecommerce, and inventory management
-5. Internet access
+3. Storefront products available for retail sale on site and online; stored in the company’s adjoining warehouse
+4. Management of systems, software, and services: accounting, telecommunication, database, security, ecommerce, and inventory management 
+5. Internet access  
 6. Internal network
 7. Data retention and storage
 8. Legacy system maintenance: end-of-life systems that require human monitoring
-9. 
-<b>Risk assessment:</b>
 
-<b>Risk description</b>
+<h1 style="font-size:160%;">Risk assessment</h1>
+
+<b>Risk description:</b>
 
 Currently, there is inadequate management of assets. Additionally, Botium Toys does not have all the proper controls in place and may not be fully compliant with U.S. and international regulations and standards.
 
-<b>Control best practices</b>
+<b>Control best practices:</b>
 
 The first of the five functions of the NIST CSF is Identify. Botium Toys will need to dedicate resources to identify assets so they can appropriately manage them. Additionally, they will need to classify existing assets and determine the impact of the loss of existing assets, including systems, on business continuity.
 
-<b>Risk score</b>
+<b>Risk score:</b>
 
 On a scale of 1 to 10, the risk score is 8, which is high. This is due to a lack of controls  and adherence to compliance best practices.
 
-<b>Additional comments</b>
+<b>Additional comments:</b>
 
 The potential impact from the loss of an asset is rated as medium, because the IT department does not know which assets would be at risk. The risk to assets or fines from governing bodies is high because Botium Toys does not have all of the necessary controls in place and is not fully adhering to best practices related to compliance regulations that keep critical data private/secure.
 Review the following bullet points for specific details:
@@ -77,9 +77,9 @@ Review the following bullet points for specific details:
 
 
 
-<b>Control categories</b>
+<h1 style="font-size:160%;">Control categories</h1>
 
-<b>Control categories</b>
+<b>Control categories:</b>
 
 Controls within cybersecurity are grouped into three main categories:
 
@@ -99,30 +99,27 @@ Controls within cybersecurity are grouped into three main categories:
 
 Control types include, but are not limited to:
 
-<b>
-1. Preventative
-	
-2. Corrective
-   
-3. Detective
-   
-4. Deterrent
- </b>
+<ol><b>
+<li> Preventative</li>	
+<li>Corrective</li>
+<li>Detective  </li>
+<li> Deterrent</li>
+ </b></ol>
  
 These controls work together to provide defense in depth and protect assets.
 
-<b>Preventative controls</b> are designed to prevent an incident from occurring in the first place.
+<b>1.Preventative controls</b> are designed to prevent an incident from occurring in the first place.
 
-<b>Corrective controls</b> are used to restore an asset after an incident.
+<b>2.Corrective controls</b> are used to restore an asset after an incident.
 
-<b>Detective controls</b> are implemented to determine whether an incident has occurred or is in progress.
+<b>3.Detective controls</b> are implemented to determine whether an incident has occurred or is in progress.
 
-<b>Deterrent controls</b> are designed to discourage attacks.
+<b>4.Deterrent controls</b> are designed to discourage attacks.
 
 
 Review the following charts for specific details about each type of control and its purpose.
 
-<b>Administrative Controls:</b>
+<h1 style="font-size:160%;">Administrative Controls</h1>
 <table>
   <tr>
     <th>Control Name</th>
@@ -169,7 +166,7 @@ Review the following charts for specific details about each type of control and 
 	 
 </table>	
 
-<b>Technical Controls</b>
+<h1 style="font-size:160%;">Technical Controls</h1>
 <table>
   <tr>
     <th>Control Name</th>
@@ -223,7 +220,7 @@ Review the following charts for specific details about each type of control and 
 </tr>
 </table>
 
-Physical Controls:
+<h1 style="font-size:160%;">Physical Controls</h1>
 <table>
   <tr>
     <th>Control Name</th>
@@ -283,7 +280,7 @@ Physical Controls:
 </table>
 
 
-<b>Compliance Evaluation:</b>
+<h1 style="font-size:160%;">Compliance Evaluation</h1>
 
 <b>Payment Card Industry Data Security Standard (PCI DSS):- </b>
 
@@ -302,13 +299,13 @@ Absent - Encryption is not employed to ensure the confidentiality of financial i
 
 Inadequate - Existing policies lack robustness, and a password management system is conspicuously absent.
 
-<b>General Data Protection Regulation (GDPR):</b>
+<h1 style="font-size:160%;">General Data Protection Regulation (GDPR)</h1>
 
 <b> Data Confidentiality: </b>
 
 Unsatisfactory - Encryption measures need to be introduced to safeguard financial data.
 
-<b> Data Breach Notification: <b>
+<b> Data Breach Notification: </b>
 
 Adequate - A plan exists for notifying E.U. customers within 72 hours of a data breach.
 
@@ -320,7 +317,7 @@ Incomplete - Assets have been inventoried but require systematic classification.
 
 Adequate - Privacy policies are in place and stringently enforced among IT team members and other relevant staff.
 
-<b>System and Organizations Controls (SOC type 1, SOC type 2):</b>
+<h1 style="font-size:160%;">System and Organizations Controls (SOC type 1, SOC type 2)</h1>
 
 <b>User Access Policies: </b>
 

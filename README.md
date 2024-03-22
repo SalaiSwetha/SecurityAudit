@@ -90,18 +90,22 @@ Controls within cybersecurity are grouped into three main categories:
    ● Physical/Operational controls</b>
    
 <b>Administrative/Managerial controls</b> address the human component of cybersecurity. These controls include policies and procedures that define how an organization manages data and clearly defines employee responsibilities, including their role in protecting the organization. While administrative controls are typically policy based, the enforcement of those policies may require the use of technical or physical controls.
+
 <b>Technical controls</b> consist of solutions such as firewalls, intrusion detection systems(IDS), intrusion prevention systems (IPS), antivirus (AV) products, encryption, etc. Technical controls can be used in a number of ways to meet organizational goals and objectives.
+
 <b>Physical/Operational controls</b> include door locks, cabinet locks, surveillance cameras, badge readers, etc. They are used to limit physical access to physical assets by unauthorized personnel.
 
 <b>Control types</b>
 
 Control types include, but are not limited to:
+
 <b>
 1. Preventative
 2. Corrective
 3. Detective
 4. Deterrent
  </b>
+ 
 These controls work together to provide defense in depth and protect assets.
 <b>Preventative controls</b> are designed to prevent an incident from occurring in the first place.
 <b>Corrective controls</b> are used to restore an asset after an incident.

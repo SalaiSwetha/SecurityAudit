@@ -101,36 +101,76 @@ Control types include, but are not limited to:
 
 <b>
 1. Preventative
+	
 2. Corrective
+   
 3. Detective
+   
 4. Deterrent
  </b>
  
 These controls work together to provide defense in depth and protect assets.
+
 <b>Preventative controls</b> are designed to prevent an incident from occurring in the first place.
+
 <b>Corrective controls</b> are used to restore an asset after an incident.
+
 <b>Detective controls</b> are implemented to determine whether an incident has occurred or is in progress.
+
 <b>Deterrent controls</b> are designed to discourage attacks.
 
 
 Review the following charts for specific details about each type of control and its purpose.
-Administrative Controls:
-Control Name	Control Type and Purpose	Needs to be Implemented	Priority
-Least Privilege	Preventative: reduces risk by making sure vendors and non-authorized staff only have access to the assets/data they need to do their jobs.	X
-	High
-Disaster recovery plans 
-	Corrective. Provide business continuity to ensure systems can run in the event of an incident/there is limited to no loss of productivity own time/impact to system components, including: computer room environment (air conditioning, power supply, etc.); hardware (servers, employee equipment); connectivity (internal network, wireless); applications (email, electronic data); data and restoration	X
-	High
-Password policies	
-	Preventative: establish password strength rules to improve security/reduce likelihood of account compromise through brute force or dictionary attack techniques
-	X
-	High
-Access Control Policy	Preventative; increase confidentiality and integrity of data	X
-	High
-Account Management Policies	Preventative: reduce attack surface and limit overall impact from disgruntled/former employees	X
-	High
-Separation of duties	Preventative: ensure no one has so much access that they can abuse the system for personal gain	X
-	High
+
+<b>Administrative Controls:</b>
+<table>
+  <tr>
+    <th>Control Name</th>
+    <th>Control Type and Purpose</th>
+    <th>Needs to be Implemented</th>
+    <th>Priority</th>
+  </tr>
+  <tr>
+    <td>Least Privilege</td>
+    <td>Preventative: reduces risk by making sure vendors and non-authorized staff only have access to the assets/data they need to do their jobs.</td>
+    <td>X</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Disaster recovery plans </td>
+    <td>Corrective. Provide business continuity to ensure systems can run in the event of an incident/there is limited to no loss of productivity own time/impact to system components, including: computer room environment (air conditioning, power supply, etc.); hardware (servers, employee equipment); connectivity (internal network, wireless); applications (email, electronic data); data and restoration</td>
+    <td>X</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Password policies </td>
+    <td>Preventative: establish password strength rules to improve security/reduce likelihood of account compromise through brute force or dictionary attack techniques</td>
+    <td>X</td>
+    <td>High</td>
+  </tr>
+   <tr>
+    <td>Access Control Policy	 </td>
+    <td>Preventative; increase confidentiality and integrity of data</td>
+    <td>X</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Account Management Policies</td>
+    <td>Preventative: reduce attack surface and limit overall impact from disgruntled/former employees</td>
+    <td>X</td>
+    <td>High</td>
+  </tr>
+  <tr>
+	  <td>Separation of duties</td>	
+	  <td>Preventative: ensure no one has so much access that they can abuse the system for personal gain</td>
+	  <td>X</td>
+	<td>High</td>
+</tr>
+	 
+</table>		
+	
+	
+		
 
 
 

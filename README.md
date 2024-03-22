@@ -20,8 +20,11 @@ Botium Toys' internal IT audit will assess the following:
 3. Current procedures and protocols set for the following systems: accounting, endpoint detection, firewall, intrusion detection system, Security Information, and Event Management (SIEM) tool.
 4. Ensure current user permissions, controls, procedures, and protocols in place align with necessary compliance requirements.
 5. Ensure current technology is accounted for. Both hardware and system access.
-Goals: 
+   
+<b>Goals:</b>
+
 The goals for Botium Toys’ internal IT audit are:
+
 1. To adhere to the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF)
 2. Establish a better process for their current systems to ensure they are compliant
 3. Fortify system controls
@@ -29,7 +32,8 @@ The goals for Botium Toys’ internal IT audit are:
 5. Establish their policies and procedures, which includes their playbooks
 6. Ensure they are meeting compliance requirements.
 
-Current assets:
+<b>Current assets:</b>
+
 1. On-premises equipment for in-office business needs
 2. Employee equipment: end-user devices (desktops/laptops, smartphones), remote workstations, headsets, cables, keyboards, mice, docking stations, surveillance cameras, etc.
 3.Storefront products available for retail sale on site and online; stored in the company’s adjoining warehouse
@@ -38,15 +42,23 @@ Current assets:
 6. Internal network
 7. Data retention and storage
 8. Legacy system maintenance: end-of-life systems that require human monitoring
-Risk assessment:
-Risk description
+9. 
+<b>Risk assessment:</b>
+
+<b>Risk description</b>
+
 Currently, there is inadequate management of assets. Additionally, Botium Toys does not have all the proper controls in place and may not be fully compliant with U.S. and international regulations and standards.
-Control best practices
+<b>Control best practices</b>
 The first of the five functions of the NIST CSF is Identify. Botium Toys will need to dedicate resources to identify assets so they can appropriately manage them. Additionally, they will need to classify existing assets and determine the impact of the loss of existing assets, including systems, on business continuity.
-Risk score
+
+<b>Risk score</b>
+
 On a scale of 1 to 10, the risk score is 8, which is high. This is due to a lack of controls  and adherence to compliance best practices.
-Additional comments
-The potential impact from the loss of an asset is rated as medium, because the IT department does not know which assets would be at risk. The risk to assets or fines from governing bodies is high because Botium Toys does not have all of the necessary controls in place and is not fully adhering to best practices related to compliance regulations that keep critical data private/secure. Review the following bullet points for specific details:
+
+<b>Additional comments</b>
+
+The potential impact from the loss of an asset is rated as medium, because the IT department does not know which assets would be at risk. The risk to assets or fines from governing bodies is high because Botium Toys does not have all of the necessary controls in place and is not fully adhering to best practices related to compliance regulations that keep critical data private/secure.
+Review the following bullet points for specific details:
 1. Currently, all Botium Toys employees have access to internally stored data and may be able to access cardholder data and customers’ PII/SPII.
 2. Encryption is not currently used to ensure confidentiality of customers’ credit card information that is accepted, processed, transmitted, and stored locally in the company’s internal database.
 3. Access controls pertaining to least privilege and separation of duties have not been implemented.
@@ -63,23 +75,32 @@ The potential impact from the loss of an asset is rated as medium, because the I
 
 
 
-Control categories
+<b>Control categories</b>
 
-Control categories
+<b>Control categories</b>
 Controls within cybersecurity are grouped into three main categories:
-● Administrative/Managerial controls
-● Technical controls
-● Physical/Operational controls
-Administrative/Managerial controls address the human component of cybersecurity. These controls include policies and procedures that define how an organization manages data and clearly defines employee responsibilities, including their role in protecting the organization. While administrative controls are typically policy based, the enforcement of those policies may require the use of technical or physical controls.
-Technical controls consist of solutions such as firewalls, intrusion detection systems(IDS), intrusion prevention systems (IPS), antivirus (AV) products, encryption, etc. Technical controls can be used in a number of ways to meet organizational goals and objectives.
-Physical/Operational controls include door locks, cabinet locks, surveillance cameras, badge readers, etc. They are used to limit physical access to physical assets by unauthorized personnel.
-Control types
+<b>● Administrative/Managerial controls
+   ● Technical controls
+   ● Physical/Operational controls</b>
+   
+<b>Administrative/Managerial controls</b> address the human component of cybersecurity. These controls include policies and procedures that define how an organization manages data and clearly defines employee responsibilities, including their role in protecting the organization. While administrative controls are typically policy based, the enforcement of those policies may require the use of technical or physical controls.
+<b>Technical controls</b> consist of solutions such as firewalls, intrusion detection systems(IDS), intrusion prevention systems (IPS), antivirus (AV) products, encryption, etc. Technical controls can be used in a number of ways to meet organizational goals and objectives.
+<b>Physical/Operational controls</b> include door locks, cabinet locks, surveillance cameras, badge readers, etc. They are used to limit physical access to physical assets by unauthorized personnel.
+
+<b>Control types</b>
+
 Control types include, but are not limited to:
+<b>
 1. Preventative
 2. Corrective
 3. Detective
 4. Deterrent
-These controls work together to provide defense in depth and protect assets. Preventative controls are designed to prevent an incident from occurring in the first place. Corrective controls are used to restore an asset after an incident. Detective controls are implemented to determine whether an incident has occurred or is in progress. Deterrent controls are designed to discourage attacks.
+ </b>
+These controls work together to provide defense in depth and protect assets.
+<b>Preventative controls</b> are designed to prevent an incident from occurring in the first place.
+<b>Corrective controls</b> are used to restore an asset after an incident.
+<b>Detective controls</b> are implemented to determine whether an incident has occurred or is in progress.
+<b>Deterrent controls</b> are designed to discourage attacks.
 
 
 Review the following charts for specific details about each type of control and its purpose.

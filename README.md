@@ -48,7 +48,9 @@ The goals for Botium Toys’ internal IT audit are:
 <b>Risk description</b>
 
 Currently, there is inadequate management of assets. Additionally, Botium Toys does not have all the proper controls in place and may not be fully compliant with U.S. and international regulations and standards.
+
 <b>Control best practices</b>
+
 The first of the five functions of the NIST CSF is Identify. Botium Toys will need to dedicate resources to identify assets so they can appropriately manage them. Additionally, they will need to classify existing assets and determine the impact of the loss of existing assets, including systems, on business continuity.
 
 <b>Risk score</b>
@@ -78,9 +80,13 @@ Review the following bullet points for specific details:
 <b>Control categories</b>
 
 <b>Control categories</b>
+
 Controls within cybersecurity are grouped into three main categories:
+
 <b>● Administrative/Managerial controls
+
    ● Technical controls
+   
    ● Physical/Operational controls</b>
    
 <b>Administrative/Managerial controls</b> address the human component of cybersecurity. These controls include policies and procedures that define how an organization manages data and clearly defines employee responsibilities, including their role in protecting the organization. While administrative controls are typically policy based, the enforcement of those policies may require the use of technical or physical controls.

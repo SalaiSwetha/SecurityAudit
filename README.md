@@ -167,33 +167,61 @@ Review the following charts for specific details about each type of control and 
 	<td>High</td>
 </tr>
 	 
-</table>		
+</table>	
+
+<b>Technical Controls</b>
+<table>
+  <tr>
+    <th>Control Name</th>
+    <th>Control Type and Purpose</th>
+    <th>Needs to be Implemented</th>
+    <th>Priority</th>
+  </tr>
+  <tr>
+    <td>Firewalls</td>
+    <td>Preventative:firewalls are already in place to filter unwanted/malicious traffic from entering internal network </td>
+    <td>NA</td>
+    <td>Low</td>
+  </tr>
+  <tr>
+<td>Intrusion Detection System (IDS)</td>	
+<td>Detective: allows IT team to identify possible intrusions (e.g., anomalous traffic) quickly</td>	
+<td>X</td>
+	<td>High</td>
+ </tr>
+<tr>
+	<td>Encryption</td>
+	<td>Deterrent; makes confidential information/data more secure (e.g., website payment transactions)</td>
+	<td>X</td>
+	<td>High</td>
+	</tr>
+<tr>
 	
-	
-		
+<td>Backups</td>
+<td>Corrective; supports ongoing productivity in the case of an event; aligns to the disaster recovery plan</td>
+<td>X</td>
 
-
-
-Technical Controls
-Control Name	Control Type and Purpose	Needs to be Implemented	Priority
-Firewalls	Preventative: firewalls are already in place to filter unwanted/malicious traffic from entering internal network	NA
-	Low
-Intrusion Detection System (IDS)	Detective: allows IT team to identify possible intrusions (e.g., anomalous traffic) quickly	X
-	High
-Encryption
-	Deterrent; makes confidential information/data more secure (e.g., website payment transactions)	X
-	High
-Backups	Corrective; supports ongoing productivity in the case of an event; aligns to the disaster recovery plan	X
-	High
-Password management system
-	Corrective: password recovery, reset, lock out notifications	X
-	High
-Antivirus (AV) software	Corrective: password recovery, reset, lock out notifications	X
-	High
-Manual monitoring, maintenance, and intervention	Preventative/corrective; required for legacy systems to identify and mitigate potential threats, risks, and vulnerabilities	X
-	High
-
-
+<td>High</td>
+</tr>
+<tr>
+	<td>Password management system</td>
+	<td>Corrective: password recovery, reset, lock out notifications</td>
+	<td>X</td>
+	<td>High</td>
+</tr>
+<tr>
+	<td>Antivirus (AV) software</td>
+	<td>Corrective: password recovery, reset, lock out notifications</td>
+	<td>X</td>
+	<td>	High</td>
+</tr>
+<tr>
+<td>Manual monitoring, maintenance, and intervention</td>
+	<td>Preventative/corrective; required for legacy systems to identify and mitigate potential threats, risks, and vulnerabilities</td>
+	<td>X</td>
+	<td>High</td>
+</tr>
+</table>	
 
 
 
